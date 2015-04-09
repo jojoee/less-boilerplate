@@ -13,16 +13,11 @@ LESS Boilerplate - Simple LESS mixins library
       ├── CHANGELOG.MD
       └── README.md
 
-# Full Featured list
+# Featured list
 
 - [Material Design Color](http://www.google.com/design/spec/style/color.html)
 - Compatibility with [Bootstrap 3](http://getbootstrap.com/)
-- Code Standard : [LESS doc](http://lesscss.org/)
-
-# Thanks
-
-- [Preboot 2](http://getpreboot.com/) - MIT
-- [Lesshat 3.0.2](https://github.com/madebysource/lesshat) - MIT
+- Code Standard - [LESS doc](http://lesscss.org/)
 
 # MIXINS
 
@@ -92,3 +87,8 @@ LESS Boilerplate - Simple LESS mixins library
 - BORDER
 - SCREEN
 - CUSTOM
+
+# Thanks
+
+- [Preboot 2](http://getpreboot.com/) - MIT
+- [Lesshat 3.0.2](https://github.com/madebysource/lesshat) - MIT
