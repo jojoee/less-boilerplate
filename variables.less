@@ -23,14 +23,16 @@
 @gray:                        #616161; // 700
 @gray-light:                  #757575; // 600
 @gray-lighter:                #9E9E9E; // 500
-@gray-lighter-2:              #BDBDBD; // 400
-@gray-lighter-3:              #E0E0E0; // 300
+@gray-lighter2:               #BDBDBD; // 400
+@gray-lighter3:               #E0E0E0; // 300
 
 @gray-bg:                     #FAFAFA; // 50
 
 /*================================================================
   #COLOR - scheme
   ================================================================*/
+
+@white:                       #fff;
 
 @black:                       #333;
 
@@ -120,27 +122,38 @@
 @media (min-width: @screen-md-min) { }
 @media (min-width: @screen-lg-min) { }
 
+@media (max-width: @screen-xs-max) { }
+@media (max-width: @screen-sm-max) { }
+@media (max-width: @screen-md-max) { }
+@media (max-width: @screen-lg-max) { }
+
 */
 
 /*================================================================
   #CUSTOM
   ================================================================*/
 
+@base-url:                    "http://sitename.com/";
+@img-url:                     "http://sitename.com/images/";
+
 @space-xl:                    60px;
 @space-lg:                    48px;
 @space-xm:                    32px;
 @space-md:                    @space-lg / 2; // 24px
 @space-sm:                    @space-lg / 4; // 12px;
+@space-xs:                    @space-lg / 8; // 6px;
 
 @section-width:               @screen-md - 48px;
 
 @page-width:                  1060px;
 
-@featured-z-index:            1024;
+@featured-zindex:             1024;
 
 @theme-color:                 @gray-light; // main color
 
 @accent-color:                @amber; // link color
-@accent-color-2:              @blue; // link hover color
+@accent-color2:               @blue; // link hover color
+
+@accent-bgcolor:              rgba(255, 179, 0, 0.2);
 
 @note-color:                  @red; // highlight color
