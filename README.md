@@ -1,8 +1,8 @@
 # LESS Boilerplate
 
-LESS Boilerplate - Simple LESS mixins library
+Simple LESS mixins library
 
-# Folder structure
+## Folder structure
 
     less-boilerplate
       ├── mixins
@@ -13,15 +13,19 @@ LESS Boilerplate - Simple LESS mixins library
       ├── CHANGELOG.MD
       └── README.md
 
-# Featured list
+## Featured list
 
 - [Material Design Color](http://www.google.com/design/spec/style/color.html)
 - Compatibility with [Bootstrap 3](http://getbootstrap.com/)
 - Code Standard - [LESS doc](http://lesscss.org/)
 
-# MIXINS
+## Future updates
 
-## utilities.less
+- usage document
+
+## Mixins
+
+### utilities.less
 
 - BORDER
 - GRADIENT
@@ -46,7 +50,7 @@ LESS Boilerplate - Simple LESS mixins library
   - opacity
   - resizable
 
-## vendor-prefixes.less
+### vendor-prefixes.less
 
 - BORDER-RADIUS
 - ZOOM-IN
@@ -69,7 +73,7 @@ LESS Boilerplate - Simple LESS mixins library
 - WORD-BREAK
 - POINTER-EVENTS
 
-## style.less
+### style.less
 
 - GENERAL
 - HEADER
@@ -77,7 +81,7 @@ LESS Boilerplate - Simple LESS mixins library
 - FOOTER
 - VENDOR
 
-## variable.less
+### variable.less
 
 - COLOR
   - gray (many levels of gray)
@@ -88,7 +92,7 @@ LESS Boilerplate - Simple LESS mixins library
 - SCREEN
 - CUSTOM
 
-# Thanks
+## Thanks
 
 - [Preboot 2](http://getpreboot.com/) - MIT
 - [Lesshat 3.0.2](https://github.com/madebysource/lesshat) - MIT
